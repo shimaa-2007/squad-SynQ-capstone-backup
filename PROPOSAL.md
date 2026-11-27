@@ -30,8 +30,7 @@ Unlike general-purpose project management tools, TeamUp focuses on academic team
 
 To improve collaboration, transparency, and accountability in university group projects by providing a structured environment where tasks, responsibilities, submissions, and individual contributions can be tracked and reviewed.
 ## 3. Core MVP Features (Weeks 5–24 Roadmap)
-
-1. **Project & Team Workspace (Frontend UI):** Dashboard displaying project status, Kanban board (To Do, In Progress, Review, Done), and overall progress.
-2. **Task Management & Deadlines (CRUD / REST API):** Creating, assigning, updating, and tracking tasks with clear deadlines and responsible members.
-3. **Submission & Review Flow:** Uploading deliverables or PR links as proof of work, allowing team leaders to approve or request revisions.
-4. **Role-Based Access & Contribution Tracking (Authentication):** Separate flows for Students, Team Leaders, and Instructors/TAs with automated contribution logs.
+1. **Responsive Event Directory (Frontend UI):** Grid layout displaying campus events with category tags.
+2. **Saved Bookmarks & Preferences (Client State/BOM):** Using `localStorage` to save bookmarked events and theme settings across reloads.
+3. **Event Management (CRUD / REST API):** Creating, reading, updating, and deleting events via backend API calls.
+4. **Role-Based Access (Authentication):** Separate login flows for students and club organizers.
